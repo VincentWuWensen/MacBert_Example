@@ -1,3 +1,4 @@
 # MacBert_Example
 This is a MacBert-based model for Chinese text analysis and topic modelling. It uses the Chinese Bert model jointly opened by Harbin Institute of Technology and KDDI. Please refer to https://github.com/ymcui/MacBERT和https://huggingface.co/hfl/chinese-macbert-large. 
 And the framework of the code is heavily borrowed from https://github.com/bbruceyuan/Hands-On-Large-Language-Models-CN. This is the tutorial provided in Chapter 5 of it, where he describes how to use the Bert model. His explanations are excellent, and I recommend his tutorials to native Chinese speakers with initial knowledge about deep learning or text analysis.
+The Chinese corpus cases used in the model come from the Chinese Text Classification Corpus of Fudan University https://gitcode.com/open-source-toolkit/283c1. In this case, only ten cases are used in the model. Users can add or replace them with their own corpus as needed.
